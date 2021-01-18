@@ -1,0 +1,22 @@
+.principal {
+    &__tabla {
+        text-align   : center;
+        margin       : 13px;
+        border-radius: 5px;
+    }
+
+    &__tablElem {
+        padding: 5px;
+    }
+
+    &__tablIcon {
+        &--check {
+            color: green;
+        }
+
+        &--cross {
+
+            color: red;
+        }
+    }
+}

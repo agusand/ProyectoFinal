@@ -1,0 +1,183 @@
+/*Reducción de header de main*/
+
+@media all and (max-width: 1199px) {
+    .headerMain {
+        display: none;
+    }
+}
+
+/*Reducción de aside*/
+
+@media not all and (max-width: 991px) {
+    .divulgadores {
+        &__section {
+            padding-left: 0;
+        }
+
+        &__imgCont {
+            padding: 2px;
+        }
+
+    }
+}
+
+@media all and (max-width: 767px) {
+
+    .divulgadores {
+        display: none;
+    }
+}
+
+/*Reducción nav y letra aside*/
+
+@media not all and (min-width: 992px) {
+    .navBarra {
+        &__boton {
+            position: absolute;
+            right   : 0;
+        }
+
+        &__lista {
+            position       : relative;
+            flex-flow      : column nowrap;
+            justify-content: center;
+            right          : 0;
+            top            : 32px;
+        }
+
+        &__link {
+            background-color: rgba(21, 21, 21, 0.4);
+            color           : #eee;
+
+            &--izq {
+                border-top-left-radius   : 50px;
+                border-top-right-radius  : 50px;
+                border-bottom-left-radius: 0px;
+            }
+
+            &--der {
+                border-bottom-left-radius : 50px;
+                border-bottom-right-radius: 50px;
+                border-top-right-radius   : 0px;
+            }
+        }
+
+        &__lisElem {
+            min-width: 50vw;
+            &--produc {
+                &:hover {
+                    margin-bottom: 84px;
+                }
+            }
+        }
+
+        &__subLista {
+            top  : 84px;
+            width: 100%;
+        }
+    }
+
+    .contenedor {
+        aside {
+            h2 {
+                font-size: 1.3em;
+            }
+
+            h3 {
+                font-size: 1.2em;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 521px) {
+
+    .encabezado {
+        justify-content: center;
+    }
+
+    .navBarra {
+        display: none;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .navBarra {
+        &__lisElem {
+            &--sec {
+                max-width: 159.25px;
+            }
+
+            &--produc {
+                &:hover .navBarra__link--secUlt {
+                    border-bottom-left-radius : 15px;
+                    border-bottom-right-radius: 15px;
+                }
+            }
+        }
+
+        &__link {
+            &--izq {
+                border-top-left-radius   : 50px;
+                border-bottom-left-radius: 50px;
+            }
+
+            &--der {
+                border-top-right-radius   : 50px;
+                border-bottom-right-radius: 50px;
+            }
+        }
+    }
+
+
+}
+
+/*Reducción footer*/
+
+@media all and (max-width: 880px) {
+    .piePagina {
+        height               : 800px;
+        grid-template-columns: 100vw;
+        grid-template-rows   : 400px 200px 200px;
+        grid-template-areas  : "form""menu""contacto";
+    }
+
+    .formFooter {
+        height: 380px;
+
+        &__fieldSet {
+            height: 380px;
+        }
+
+    }
+
+}
+
+@media all and (max-width: 424px) {
+    .contacto {
+        &__imgRedes {
+            margin: 20px 9px;
+        }
+    }
+}
+
+@media all and (max-width: 320px) {
+    .piePagina{
+    height               : 1050px;
+    grid-template-rows   : 400px 200px 450px;
+    }
+    .contacto {
+        &__redes {
+            @include flexbox (column,nowrap);
+        }
+    }
+}
+
+/*form Divulgá responsive*/
+
+@media all and (max-width: 424px) {
+    .textCv {
+        min-width: 80%;
+        margin   : auto;
+    }
+}

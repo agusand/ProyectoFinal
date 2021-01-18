@@ -1,0 +1,46 @@
+.principal {
+    &__fieldset {
+        display    : flex;
+        flex-flow  : column nowrap;
+        align-items: center;
+        text-align : center;
+    }
+
+    &__inpCont {
+        width: 60%;
+    }
+
+    &__formLabel {
+        display: block;
+    }
+
+    &__inpText {
+        width      : 100%;
+        color      : #444;
+        text-shadow: 1px 1px 2px rgb(255, 255, 255);
+        font-weight: 500;
+
+        &:focus {
+            background: linear-gradient(0deg, rgba(62, 66, 67, 0.796) 0%, rgba(130, 128, 128, 0.365) 34%, rgba(208, 208, 208, 0) 100%);
+        }
+
+        &--CV {
+            min-height   : 150px;
+            margin-bottom: 0;
+            box-sizing   : border-box;
+        }
+    }
+
+    &__boton {
+        background-color: rgb(94, 109, 106);
+        color           : rgb(240, 240, 240);
+        min-width       : 100px;
+        padding         : 1px;        
+        border-bottom   : solid transparent;
+        transition      : .4s;
+    
+        &:hover {
+            border-bottom: solid turquoise;
+        }
+    }
+}

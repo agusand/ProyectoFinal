@@ -1,0 +1,123 @@
+.piePagina {
+    position             : relative;
+    height               : 400px;
+    display              : grid;
+    grid-template-columns: 50vw 25vw 25vw;
+    grid-template-rows   : 200px 200px;
+    grid-template-areas  : "form menu menu""form contacto contacto";
+    background           : rgb(28, 34, 33);
+    color                : #cecece;
+}
+
+.formFooter {
+    margin   : 40px auto;
+    width    : 80%;
+    height   : 350px;
+    grid-area: form;
+
+    &__fieldSet {
+        height  : 350px;
+        width   : 100%;
+        padding : 10px 20px;
+        overflow: hidden;
+    }
+
+    &__contenido {
+        padding      : 5px;
+        @include flexbox (column,nowrap);
+        align-content: center;
+    }
+
+    &__selector {
+        color         : rgb(240, 240, 240);
+        background    : rgb(36, 43, 40);
+        border        : none;
+        border-bottom : solid transparent;
+        outline-style : none;
+        transition: border-bottom .4s;
+
+        &:hover {
+            border-bottom : solid turquoise;
+        }
+    }
+
+    &__detalle {
+        background  : transparent;
+        border: none;
+        color       : rgb(240, 240, 240);
+        min-height  : 120px;
+        resize      : vertical;
+        border        : none;
+        border-bottom : solid transparent;
+        transition: border-bottom .4s;
+
+        &:hover {
+            border-bottom: solid turquoise;
+        }
+
+        &:focus {
+            border-bottom: solid turquoise;
+            outline      : none;
+            background   : linear-gradient(0deg, rgba(0, 29, 36, 0.796) 0%, rgba(0, 0, 0, 0.36458333333333337) 34%, rgba(0, 0, 0, 0) 100%);
+        }
+    }
+
+    &__boton {
+        background-color: rgb(94, 109, 106);
+        color           : rgb(240, 240, 240);
+        min-width       : 100px;
+        padding         : 1px;
+        border-bottom   : solid transparent;
+        transition      : .4s;
+
+        &:hover {
+            border-bottom: solid turquoise;
+        }
+    }
+}
+
+.menuFooter {
+    margin    : 0 auto;
+    padding   : 5% 0;
+    grid-area : menu;
+    text-align: center;
+
+    &__lista {
+        list-style: none;
+    }
+
+    &__lisElem &__link {
+        &:hover{
+            color:#444;
+        }
+    }
+}
+
+.contacto {
+    @include flexbox (column,nowrap);
+    align-items: center;
+    margin     : auto;
+    grid-area  : contacto;
+
+    &__titulo {
+        display: inline-block;
+    }
+
+    &__redes {
+
+        display  : flex;
+        flex-flow: row nowrap;
+
+    }
+
+    &__imgRedes {
+        width : 60px;
+        margin: 20px 15px;
+
+        &:hover {
+            animation: contacto .4s cubic-bezier(0.1, 0.3, .5, 0.1);
+            transform: scale(1.3);
+        }
+
+    }
+}

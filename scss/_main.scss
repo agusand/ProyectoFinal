@@ -1,0 +1,146 @@
+.main {
+    position   : relative;
+    background : $mainBgColor;
+    background : $mainBgGradient;
+    color      : #333;
+    width      : 100%;
+    font-weight: 500;
+
+    h2 {
+        margin: 5px 10px;
+    }
+}
+
+.contenedor {
+    padding-top: 110px;
+}
+
+.headerMain {
+    padding   : 0px;
+    border-top: none;
+    @include flexbox (column,nowrap);
+    text-align: center;
+
+    &__intCarrusel {
+        padding: 0;
+    }
+
+    &__imgCarrusel {
+        width: 100%;
+    }
+
+    &__leyenda {
+        padding-top  : 20px;
+        max-width    : 70%;
+        max-height   : 70%;
+        margin-bottom: 7%;
+    }
+
+    &__titulo {
+        color      : white;
+        text-shadow: 1px 1px 2px #222;
+        font-size  : 2vw;
+    }
+
+    &__parrafo {
+        text-align : center;
+        font-size  : 1vw;
+        text-shadow: 1px 1px #222;
+        line-height: 1vw;
+    }
+
+}
+
+.principal {
+    background-color: #ddd;
+    padding         : 1%;
+    margin          : 0px;
+    box-sizing      : border-box;
+    overflow        : hidden auto;
+    color           : #333;
+
+    &__titulo {
+        font-family: 'Dancing Script', cursive;
+    }
+
+    &__subtitulo {
+        font-size: 1.25em;
+    }
+
+    &__lista {
+        margin-left: 20px;
+    }
+
+    &__lisElem {
+        margin   : 2px 0 2px 2px;
+        font-size: 0.875em;
+    }
+
+    &__parrafo {
+        text-indent: 1.5em;
+        margin     : 3px;
+        font-size  : 0.875em;
+    }
+
+    &__selector {
+        color         : rgb(240, 240, 240);
+        background    : rgb(61, 65, 63);
+        padding-bottom: 3px;
+        border        : none;
+        outline-style : none;
+
+        &:hover {
+            padding-bottom: 0px;
+            border-bottom : solid turquoise;
+        }
+    }
+}
+
+.divulgadores {
+    background-color: #ccc;
+    margin          : 0px;
+    overflow        : hidden auto;
+    box-sizing      : border-box;
+    align-content   : center;
+
+    &__titulo {
+        padding-top: 12px;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    &__section {
+        margin : 5px 0;
+        padding: 10px;
+        height : 10em;
+    }
+
+    &__texto {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        padding: 10px;
+        margin : 0;
+    }
+
+    &__imgCont {
+        margin: 10px 0;
+        max-height: 100%;
+
+        &>img {
+            display      : block;
+            object-fit   : cover;
+            max-width    : 120px;
+            max-height   : 100%;
+            margin       : auto;
+            border-radius: 5px;
+        }
+    }
+
+    &__subTitulo {
+        font-size: 1.2em;
+    }
+
+    &__parrafo {
+        font-size: .8em;
+    }
+}
