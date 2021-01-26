@@ -15,7 +15,7 @@
         }
 
         &__imgCont {
-            padding: 2px;
+            padding: 0.125rem;
         }
 
     }
@@ -42,7 +42,7 @@
             flex-flow      : column nowrap;
             justify-content: center;
             right          : 0;
-            top            : 32px;
+            top            : 2rem;
         }
 
         &__link {
@@ -66,24 +66,24 @@
             min-width: 50vw;
             &--produc {
                 &:hover {
-                    margin-bottom: 84px;
+                    margin-bottom: 5.05rem;
                 }
             }
         }
 
         &__subLista {
-            top  : 84px;
+            top  : 5.05rem;
         }
     }
 
     .contenedor {
         aside {
             h2 {
-                font-size: 1.3em;
+                font-size: 1.3rem;
             }
 
             h3 {
-                font-size: 1.2em;
+                font-size: 1.2rem;
             }
         }
     }
@@ -120,7 +120,7 @@
         }
 
         &__subLista {
-            max-width: 170px;            
+            max-width: 10.625rem;            
         }
 
         &__link {
@@ -146,17 +146,17 @@
 
 @media all and (max-width: 880px) {
     .piePagina {
-        height               : 800px;
+        height               : 50rem;
         grid-template-columns: 100vw;
-        grid-template-rows   : 400px 200px 200px;
+        grid-template-rows   : 25rem 12.5rem 12.5rem;
         grid-template-areas  : "form""menu""contacto";
     }
 
     .formFooter {
-        height: 380px;
+        height: 23.75rem;
 
         &__fieldSet {
-            height: 380px;
+            height: 23.75rem;
         }
 
     }
@@ -166,15 +166,15 @@
 @media all and (max-width: 424px) {
     .contacto {
         &__imgRedes {
-            margin: 20px 9px;
+            margin: 1.25rem 0.5625rem;
         }
     }
 }
 
 @media all and (max-width: 320px) {
     .piePagina{
-    height               : 1050px;
-    grid-template-rows   : 400px 200px 450px;
+    height               : 65.625rem;
+    grid-template-rows   : 25rem 12.5rem 28.125rem;
     }
     .contacto {
         &__redes {
@@ -189,5 +189,38 @@
     .textCv {
         min-width: 80%;
         margin   : auto;
+    }
+}
+
+/*font-size*/
+
+@media all and (min-width: 1300px){
+    * {
+        font-size: 25px
+    }
+}
+
+@media all and (min-width: 1780px)  and (max-width: 2299px) {
+    * {
+        font-size: 20px
+    }
+}
+
+@media all and (min-width: 1100px)  and (max-width: 1779px) {
+    * {
+        font-size: 16px
+    }
+}
+
+
+@media all and (min-width: 600px) and (max-width: 1099px){
+    * {
+        font-size: 14px
+    }
+}
+
+@media all and (max-width: 599px){
+    * {
+        font-size: 10px
     }
 }

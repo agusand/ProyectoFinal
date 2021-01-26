@@ -1,29 +1,29 @@
 .piePagina {
     position             : relative;
-    height               : 400px;
+    height               : 25rem;
     display              : grid;
     grid-template-columns: 50vw 25vw 25vw;
-    grid-template-rows   : 200px 200px;
+    grid-template-rows   : 12.5rem 12.5rem;
     grid-template-areas  : "form menu menu""form contacto contacto";
     background           : rgb(28, 34, 33);
     color                : #cecece;
 }
 
 .formFooter {
-    margin   : 40px auto;
+    margin   : 2.5rem auto;
     width    : 80%;
-    height   : 350px;
+    height   : 21.875rem;
     grid-area: form;
 
     &__fieldSet {
-        height  : 350px;
+        height  : 21.875rem;
         width   : 100%;
-        padding : 10px 20px;
+        padding : 0.625rem 1.25rem;
         overflow: hidden;
     }
 
     &__contenido {
-        padding      : 5px;
+        padding      : 0.3125rem;
         @include flexbox (column,nowrap);
         align-content: center;
     }
@@ -45,7 +45,7 @@
         background  : transparent;
         border: none;
         color       : rgb(240, 240, 240);
-        min-height  : 120px;
+        min-height  : 7.5rem;
         resize      : vertical;
         border        : none;
         border-bottom : solid transparent;
@@ -65,8 +65,8 @@
     &__boton {
         background-color: rgb(94, 109, 106);
         color           : rgb(240, 240, 240);
-        min-width       : 100px;
-        padding         : 1px;
+        min-width       : 6.25rem;
+        padding         : 0.0625rem;
         border-bottom   : solid transparent;
         transition      : .4s;
 
@@ -111,8 +111,8 @@
     }
 
     &__imgRedes {
-        width : 60px;
-        margin: 20px 15px;
+        width : 3.75rem;
+        margin: 1.25rem 0.9375rem;
 
         &:hover {
             animation: contacto .4s cubic-bezier(0.1, 0.3, .5, 0.1);
