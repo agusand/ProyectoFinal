@@ -1,6 +1,4 @@
-$headerBgColor : rgb(66, 73, 77);
-$mainBgColor   : rgb(159, 176, 180);
-$mainBgGradient: radial-gradient(circle, rgb(218, 218, 218) 0%, rgb(185, 185, 185) 58%, rgb(165, 165, 165) 100%);
+$headerFooterBgColor :rgb(28, 34, 33);
 
 @mixin flexbox ($dir,$wrp){
     display: flex;
