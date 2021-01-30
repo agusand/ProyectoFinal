@@ -29,7 +29,11 @@
 
 <body>
     <header class="encabezado">
-        <a href="index.html"><img class="logo" src="img/logo.png" alt="lqntc"></a>
+        <!--Logo-->
+        <div class="encabezado__logoCont">
+            <a href="index.html"><img class="logo" src="img/logo.png" alt="lqntc" /></a>
+        </div>
+        <!--Barra de navegación-->
         <nav class="navBarra navbar navbar-expand-lg">
             <button class="navBarra__boton navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavbar">
@@ -64,6 +68,7 @@
     </header>
     <main class="main">
         <div class="contenedor container-fluid">
+            <!--Carrusel-->
             <div id="demo" class="headerMain carousel slide row" data-ride="carousel">
                 <div class="headerMain__intCarrusel carousel-inner col-0 col-sd-0 col-md-0 col-lg-0 col-xl-12">
                     <div class="carousel-item">
@@ -116,6 +121,7 @@
                 </a>
             </div>
             <div class="row">
+                <!--Sección principal-->
                 <article class="principal col-xl-7 col-lg-7 col-md-12 col-sd-12 col-12">
                     <h2 class="principal__titulo">Sobre nosotros</h2>
                     <p class="principal__parrafo">Desde <b>Lo que no te contaron</b> contamos con lo que consideramos
@@ -135,6 +141,7 @@
                         calidad que se merece,
                         aumentando su promoción y subiendo la vara.</p>
                 </article>
+                <!--Aside divulgadores-->
                 <aside class="divulgadores col-xl-5 col-lg-5 col-md-0 col-sd-0 col-0">
                     <h2 class="divulgadores__titulo">Nuestros divulgadores</h2>
                     <div class="container-fluid divulgadores__contenido">
@@ -207,6 +214,7 @@
         </div>
     </main>
     <footer class="piePagina">
+        <!--Formulario footer-->
         <form class="formFooter">
             <fieldset class="formFooter_fieldSet">
                 <legend>
@@ -237,6 +245,7 @@
                 </div>
             </fieldset>
         </form>
+        <!--Sección de contacto-->
         <section class="contacto">
             <h3 class="contacto__titulo">CONTACTO</h3>
             <div class="contacto__redes">
