@@ -30,14 +30,39 @@
 
     &__selector {
         color         : rgb(240, 240, 240);
-        background    : rgb(36, 43, 40);
-        border        : none;
-        border-bottom : solid transparent;
-        outline-style : none;
-        transition: border-bottom .4s;
+        background    : $headerFooterBgColor;
+        border        : solid 0.0313rem rgba(240, 240, 240, .5);
+        border-radius: 5px;
+        transition: border-bottom .3s, padding-bottom .3s;
+        height: 1.5625rem;        
+        padding-bottom: 0.0938rem;
 
         &:hover {
             border-bottom : solid turquoise;
+            padding-bottom: 0;
+        }
+    }
+
+    &__input {
+        background      : transparent;
+        color           : rgb(240, 240, 240);
+        box-sizing      : border-box;
+        border          : solid 0.0313rem rgba(240, 240, 240, .5);
+        transition: border-bottom .3s, padding-bottom .3s;
+        border-radius   :5px;
+        height: 1.5625rem;
+        padding-bottom: 0.0938rem;
+    
+        &:hover {
+            border-bottom: solid turquoise;
+            padding-bottom: 0;
+        }
+    
+        &:focus {
+            border-bottom: solid turquoise;
+            outline      : none;
+            padding-bottom: 0;
+            background   : linear-gradient(0deg, rgba(0, 29, 36, 0.796) 0%, rgba(0, 0, 0, 0.36458333333333337) 34%, rgba(0, 0, 0, 0) 100%);
         }
     }
 
@@ -47,9 +72,9 @@
         color       : rgb(240, 240, 240);
         min-height  : 7.5rem;
         resize      : vertical;
-        border        : none;
-        border-bottom : solid transparent;
-        transition: border-bottom .4s;
+        border        : solid 0.0313rem rgba(240, 240, 240, .5);
+        border-radius: 5px;
+        transition: border-bottom .3s;
 
         &:hover {
             border-bottom: solid turquoise;
@@ -68,7 +93,7 @@
         min-width       : 6.25rem;
         padding         : 0.0625rem;
         border-bottom   : solid transparent;
-        transition      : .4s;
+        transition      : .3s;
 
         &:hover {
             border-bottom: solid turquoise;
@@ -115,7 +140,7 @@
         margin: 1.25rem 0.9375rem;
 
         &:hover {
-            animation: contacto .4s cubic-bezier(0.1, 0.3, .5, 0.1);
+            animation: contacto 0.3s cubic-bezier(0.1, 0.3, .5, 0.1);
             transform: scale(1.3);
         }
 

@@ -19,9 +19,22 @@
         color      : #444;
         text-shadow: 1px 1px 2px rgb(255, 255, 255);
         font-weight: 500;
+        border          : solid 0.0313rem rgba(112, 112, 112, 0.795);
+        transition: border-bottom .4s, padding-bottom .4s;
+        border-radius   :5px;
+        padding-bottom: 0.0625rem;
+        min-height: 1.5625rem;
+
+        &:hover {
+            border-bottom: solid turquoise;
+            padding-bottom: 0;
+        }
 
         &:focus {
             background: linear-gradient(0deg, rgba(62, 66, 67, 0.796) 0%, rgba(130, 128, 128, 0.365) 34%, rgba(208, 208, 208, 0) 100%);
+            border-bottom: solid turquoise;
+            outline      : none;
+            padding-bottom: 0;
         }
 
         &--CV {
@@ -29,6 +42,7 @@
             margin-bottom: 0;
             box-sizing   : border-box;
         }
+    
     }
 
     &__boton {

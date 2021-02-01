@@ -10,23 +10,3 @@ visited {
         }
     }
 }
-
-.inputTexto {
-    background      : transparent;
-    border          : none;
-    color           : rgb(240, 240, 240);
-    box-sizing      : border-box;
-    border-bottom   : solid transparent;
-    transition: border-bottom .4s;
-
-    &:hover {
-        border-bottom: solid turquoise;
-    }
-
-    &:focus {
-        border-bottom: solid turquoise;
-        outline      : none;
-        background   : linear-gradient(0deg, rgba(0, 29, 36, 0.796) 0%, rgba(0, 0, 0, 0.36458333333333337) 34%, rgba(0, 0, 0, 0) 100%);
-    }
-}
-
