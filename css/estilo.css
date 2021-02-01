@@ -47,7 +47,7 @@
     background-color: rgba(0, 0, 0, 0);
     text-decoration: none;
     width: 100%;
-    font-size: 1.1rrem;
+    font-size: 1rem;
     font-style: bold;
     font-weight: 500; }
     .navBarra__link:hover {
@@ -386,15 +386,15 @@
   .navBarra__lisElem {
     min-width: 50vw; }
     .navBarra__lisElem--produc:hover {
-      margin-bottom: 5.05rem; }
+      margin-bottom: 5rem; }
   .navBarra__subLista {
-    top: 5.05rem; }
+    top: 5rem; }
   .contenedor aside h2 {
     font-size: 1.3rem; }
   .contenedor aside h3 {
     font-size: 1.2rem; } }
 
-@media all and (max-width: 521px) {
+@media all and (max-width: 599px) {
   .encabezado {
     justify-content: center; }
   .navBarra {

@@ -66,13 +66,13 @@
             min-width: 50vw;
             &--produc {
                 &:hover {
-                    margin-bottom: 5.05rem;
+                    margin-bottom: 5rem;
                 }
             }
         }
 
         &__subLista {
-            top  : 5.05rem;
+            top  : 5rem;
         }
     }
 
@@ -89,7 +89,7 @@
     }
 }
 
-@media all and (max-width: 521px) {
+@media all and (max-width: 599px) {
 
     .encabezado {
         justify-content: center;
