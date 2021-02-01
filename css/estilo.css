@@ -75,7 +75,8 @@
   border-top: none;
   display: flex;
   flex-flow: column nowrap;
-  text-align: center; }
+  text-align: center;
+  height: 17vw; }
   .headerMain__intCarrusel {
     padding: 0; }
   .headerMain__imgCarrusel {
@@ -88,10 +89,10 @@
   .headerMain__titulo {
     color: white;
     text-shadow: 1px 1px 2px #222;
-    font-size: 2vw; }
+    font-size: 1.6vw; }
   .headerMain__parrafo {
     text-align: center;
-    font-size: 1vw;
+    font-size: .8vw;
     text-shadow: 1px 1px #222;
     line-height: 1vw; }
 
