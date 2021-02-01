@@ -208,6 +208,7 @@
     .formFooter__input:focus {
       border-bottom: solid turquoise;
       outline: none;
+      padding-bottom: 0;
       background: linear-gradient(0deg, rgba(0, 29, 36, 0.796) 0%, rgba(0, 0, 0, 0.364583) 34%, rgba(0, 0, 0, 0) 100%); }
   .formFooter__detalle {
     background: transparent;
