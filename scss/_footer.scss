@@ -33,11 +33,13 @@
         background    : $headerFooterBgColor;
         border        : solid 0.0313rem rgba(240, 240, 240, .5);
         border-radius: 5px;
-        transition: border-bottom .3s;
-        height: 1.5625rem;
+        transition: border-bottom .3s, padding-bottom .3s;
+        height: 1.5625rem;        
+        padding-bottom: 0.0938rem;
 
         &:hover {
             border-bottom : solid turquoise;
+            padding-bottom: 0;
         }
     }
 
@@ -46,10 +48,10 @@
         color           : rgb(240, 240, 240);
         box-sizing      : border-box;
         border          : solid 0.0313rem rgba(240, 240, 240, .5);
-        transition: border-bottom .4s, padding-bottom .4s;
+        transition: border-bottom .3s, padding-bottom .3s;
         border-radius   :5px;
         height: 1.5625rem;
-        padding-bottom: 0.0625rem;
+        padding-bottom: 0.0938rem;
     
         &:hover {
             border-bottom: solid turquoise;
@@ -138,7 +140,7 @@
         margin: 1.25rem 0.9375rem;
 
         &:hover {
-            animation: contacto 0.4s cubic-bezier(0.1, 0.3, .5, 0.1);
+            animation: contacto 0.3s cubic-bezier(0.1, 0.3, .5, 0.1);
             transform: scale(1.3);
         }
 
