@@ -98,15 +98,17 @@
 
 .principal {
   background-color: #ddd;
-  padding: 1%;
+  padding: 1rem 2rem;
   margin: 0px;
   box-sizing: border-box;
   overflow: hidden auto;
   color: #333; }
   .principal__titulo {
-    font-family: 'Dancing Script', cursive; }
+    font-family: 'Dancing Script', cursive;
+    padding: .5rem; }
   .principal__subtitulo {
-    font-size: 1.25rem; }
+    font-size: 1.25rem;
+    padding: .2rem; }
   .principal__lista {
     margin-left: 1.25rem; }
   .principal__lisElem {
@@ -299,6 +301,7 @@
   display: block; }
 
 .principal__inpText {
+  background-color: rgba(255, 255, 255, 0.3);
   width: 100%;
   color: #444;
   text-shadow: 1px 1px 2px white;
@@ -333,7 +336,7 @@
 
 .principal__tabla {
   text-align: center;
-  margin: 0.8125rem;
+  margin: 1.2rem auto;
   border-radius: 0.3125rem; }
 
 .principal__tablElem {

@@ -52,7 +52,7 @@
 
 .principal {
     background-color: #ddd;
-    padding         : 1%;
+    padding         : 1rem 2rem;
     margin          : 0px;
     box-sizing      : border-box;
     overflow        : hidden auto;
@@ -60,10 +60,12 @@
 
     &__titulo {
         font-family: 'Dancing Script', cursive;
+        padding: .5rem;
     }
 
     &__subtitulo {
         font-size: 1.25rem;
+        padding: .2rem;
     }
 
     &__lista {
