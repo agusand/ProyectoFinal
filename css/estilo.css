@@ -388,13 +388,9 @@
     .navBarra__lisElem--produc:hover {
       margin-bottom: 5rem; }
   .navBarra__subLista {
-    top: 5rem; }
-  .contenedor aside h2 {
-    font-size: 1.3rem; }
-  .contenedor aside h3 {
-    font-size: 1.2rem; } }
+    top: 5rem; } }
 
-@media all and (max-width: 599px) {
+@media all and (max-width: 319px) {
   .encabezado {
     justify-content: center; }
   .navBarra {

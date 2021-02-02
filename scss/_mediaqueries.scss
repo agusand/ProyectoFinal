@@ -75,21 +75,9 @@
             top  : 5rem;
         }
     }
-
-    .contenedor {
-        aside {
-            h2 {
-                font-size: 1.3rem;
-            }
-
-            h3 {
-                font-size: 1.2rem;
-            }
-        }
-    }
 }
 
-@media all and (max-width: 599px) {
+@media all and (max-width: 319px) {
 
     .encabezado {
         justify-content: center;
