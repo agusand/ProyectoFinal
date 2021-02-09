@@ -1,12 +1,15 @@
 @each $pseClass in link,
 visited {
+    .main a:#{$pseClass} {
+        color          : rgb(22, 33, 41);
+        text-decoration: none;
+    }
+}
 
-    @each $vari in piePagina,
-    main {
-        .#{$vari} a:#{$pseClass} {
-            color          : rgb(180, 180, 180);
-            text-decoration: none;
-            text-shadow    : 1px 1px 2px rgb(0, 0, 0);
-        }
+@each $pseClass in link,
+visited {
+    .piePagina a:#{$pseClass} {
+        color          : rgb(180, 180, 180);
+        text-decoration: none;
     }
 }

@@ -82,6 +82,14 @@
         font-size  : 0.875rem;
     }
 
+    &__selectorCont{
+        margin: 1rem 0 .5rem 1.6rem;
+    }
+
+    &__link{
+        margin: 0rem 1.6rem;
+    }
+
     &__selector {
         color         : rgb(240, 240, 240);
         background    : rgb(61, 65, 63);
@@ -104,26 +112,26 @@
     align-content   : center;
 
     &__titulo {
-        padding: 1.5rem 1rem;
+        padding: 1.5rem 1.8rem;
         font-family: 'Dancing Script', cursive;
     }
 
     &__section {
         @include flexbox (row,nowrap);
-        margin : 1.3125rem 2rem;
-        padding: 0rem 1rem;
-        height : 10rem;
+        margin : 1.3125rem 0;
+        height : 12rem;
         justify-content: space-between
     }
 
     &__texto {
         @include flexbox (column,nowrap);
         justify-content: space-evenly;
-        margin : 0;
+        width: 100%;
+        margin : 1.2rem 0 0 1.6rem;
     }
 
     &__imgCont {
-        margin: 0.625rem 0;
+        margin: 0.625rem 0.8rem;
         max-height: 100%;
         max-width: 5.9rem;
 

@@ -8,14 +8,20 @@
 
 /*Reducción de aside*/
 
-@media not all and (max-width: 991px) {
+@media all and (max-width: 991px) {
     .divulgadores {
         &__section {
-            padding-left: 0;
+            margin: 0;
+            padding: 0;
         }
 
         &__imgCont {
-            padding: 0.125rem;
+            padding: 0 0.8rem;
+        }
+
+        &__texto {
+            margin-left: 1.7rem;
+            justify-content: space-around;
         }
 
     }
@@ -28,7 +34,7 @@
     }
 }
 
-/*Reducción nav y letra aside*/
+/*Reducción nav*/
 
 @media not all and (min-width: 992px) {
     .navBarra {
