@@ -73,39 +73,14 @@
 .contenedor {
   padding-top: 6.875rem; }
 
-.headerMain {
-  padding: 0px;
-  border-top: none;
-  display: flex;
-  flex-flow: column nowrap;
-  text-align: center;
-  height: 17vw; }
-  .headerMain__intCarrusel {
-    padding: 0; }
-  .headerMain__imgCarrusel {
-    width: 100%; }
-  .headerMain__leyenda {
-    padding-top: 1.25rem;
-    max-width: 70%;
-    max-height: 70%;
-    margin-bottom: 7%; }
-  .headerMain__titulo {
-    color: white;
-    text-shadow: 1px 1px 2px #222;
-    font-size: 1.6vw; }
-  .headerMain__parrafo {
-    text-align: center;
-    font-size: .8vw;
-    text-shadow: 1px 1px #222;
-    line-height: 1vw; }
-
 .principal {
-  background-color: #ddd;
+  background-color: white;
   padding: 1rem 2rem;
   margin: 0px;
   box-sizing: border-box;
   overflow: hidden auto;
-  color: #333; }
+  color: #333;
+  min-height: 31.25rem; }
   .principal__titulo {
     font-family: 'Dancing Script', cursive;
     padding: .6rem 1rem; }
@@ -135,7 +110,7 @@
       border-bottom: solid turquoise; }
 
 .divulgadores {
-  background-color: #ccc;
+  background-color: white;
   margin: 0px;
   overflow: hidden auto;
   box-sizing: border-box;
@@ -339,9 +314,9 @@
 
 .principal__tabla {
   text-align: center;
-  margin: 1.2rem auto;
+  margin: 1.2rem;
   border-radius: 0.3125rem;
-  width: 94%; }
+  width: 50%; }
 
 .principal__tablElem {
   padding: 0.3125rem; }
@@ -351,11 +326,6 @@
 
 .principal__tablIcon--cross {
   color: red; }
-
-/*Reducción de header de main*/
-@media all and (max-width: 1199px) {
-  .headerMain {
-    display: none; } }
 
 /*Reducción de aside*/
 @media all and (max-width: 991px) {
@@ -397,9 +367,9 @@
   .navBarra__lisElem {
     min-width: 50vw; }
     .navBarra__lisElem--produc:hover {
-      margin-bottom: 5rem; }
+      margin-bottom: 4.95rem; }
   .navBarra__subLista {
-    top: 5rem; } }
+    top: 7.45rem; } }
 
 @media all and (max-width: 319px) {
   .encabezado {
@@ -476,7 +446,11 @@
 
 @media all and (max-width: 599px) {
   * {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .navBarra__lisElem--produc:hover {
+    margin-bottom: 4.9rem; }
+  .navBarra__subLista {
+    top: 7.3rem; } }
 
 @keyframes menu {
   from {
