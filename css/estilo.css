@@ -474,7 +474,11 @@
 
 @media all and (max-width: 599px) {
   * {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .navBarra__lisElem--produc:hover {
+    margin-bottom: 4.9rem; }
+  .navBarra__subLista {
+    top: 4.9rem; } }
 
 @keyframes menu {
   from {
