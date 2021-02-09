@@ -67,8 +67,6 @@
   color: #333;
   width: 100%;
   font-weight: 500; }
-  .main h2 {
-    margin: 0.3125rem 0.625rem; }
 
 .contenedor {
   padding-top: 6.875rem; }
@@ -108,7 +106,7 @@
   color: #333; }
   .principal__titulo {
     font-family: 'Dancing Script', cursive;
-    padding: .6rem 1rem; }
+    padding: .6rem 1.4rem; }
   .principal__subtitulo {
     font-size: 1.25rem;
     padding: .3rem 1.6rem; }
@@ -476,7 +474,11 @@
 
 @media all and (max-width: 599px) {
   * {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .navBarra__lisElem--produc:hover {
+    margin-bottom: 4.9rem; }
+  .navBarra__subLista {
+    top: 4.9rem; } }
 
 @keyframes menu {
   from {
