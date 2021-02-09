@@ -22,8 +22,8 @@
 .logo {
     display   : block;
     object-fit: cover;
-    height: 5.875rem;
-    margin    : .5rem;
+    height: 5rem;
+    margin    : .95rem 2.7rem;
 }
 
 .navBarra {
@@ -78,5 +78,10 @@
         position : absolute;
         width    : 100%;
         @include flexbox (column,nowrap);
+    }
+
+    &__botonImagen{
+        height: 3rem;
+        width: 3rem;
     }
 }

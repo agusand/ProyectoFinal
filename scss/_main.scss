@@ -60,26 +60,25 @@
 
     &__titulo {
         font-family: 'Dancing Script', cursive;
-        padding: .5rem;
+        padding: .6rem 1rem;
     }
 
     &__subtitulo {
         font-size: 1.25rem;
-        padding: .2rem;
+        padding: .3rem 1.6rem;
     }
 
     &__lista {
-        margin-left: 1.25rem;
+        margin: 1rem 2.6rem;
     }
 
     &__lisElem {
-        margin   : 0.125rem 0 0.125rem 0.125rem;
+        margin   : 0.125rem 0;
         font-size: 0.875rem;
     }
 
     &__parrafo {
-        text-indent: 1.5rem;
-        margin     : 0.1875rem;
+        margin: .6rem 1.8rem;
         font-size  : 0.875rem;
     }
 
@@ -105,34 +104,33 @@
     align-content   : center;
 
     &__titulo {
-        padding-top: 0.75rem;
+        padding: 1.5rem 1rem;
         font-family: 'Dancing Script', cursive;
     }
 
     &__section {
-        margin : 0.3125rem 0;
-        padding: 0.625rem;
+        @include flexbox (row,nowrap);
+        margin : 1.3125rem 2rem;
+        padding: 0rem 1rem;
         height : 10rem;
+        justify-content: space-between
     }
 
     &__texto {
-        display: flex;
-        flex-flow: column nowrap;
+        @include flexbox (column,nowrap);
         justify-content: space-evenly;
-        padding: 0.625rem;
         margin : 0;
     }
 
     &__imgCont {
         margin: 0.625rem 0;
         max-height: 100%;
+        max-width: 5.9rem;
 
         &>img {
             display      : block;
             object-fit   : cover;
-            max-width    : 7.5rem;
             max-height   : 100%;
-            margin       : auto;
             border-radius: 0.3125rem;
         }
     }
