@@ -129,10 +129,7 @@
     }
 
     &__redes {
-
-        display  : flex;
-        flex-flow: row nowrap;
-
+        @include flexbox (row,nowrap);
     }
 
     &__imgRedes {
