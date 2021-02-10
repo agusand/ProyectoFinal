@@ -88,7 +88,9 @@
     list-style: none;
     z-index: 10; }
   .inicio__lisElem {
-    font-size: 3.5rem; }
+    font-size: 3.5rem;
+    font-weight: 750;
+    color: #141828; }
   .inicio__rectangulo {
     min-width: 28rem;
     height: 27rem;
@@ -111,7 +113,7 @@
   box-sizing: border-box;
   overflow: hidden auto;
   color: #333;
-  min-height: 20rem; }
+  min-height: 21rem; }
   .principal__titulo {
     font-family: 'Dancing Script', cursive;
     padding: .6rem 1.8rem; }
@@ -490,11 +492,11 @@
 
 @media all and (min-width: 600px) and (max-width: 1099px) {
   * {
-    font-size: 14px; } }
+    font-size: 12px; } }
 
 @media all and (max-width: 599px) {
   * {
-    font-size: 10px; } }
+    font-size: 8px; } }
 
 @keyframes menu {
   from {
