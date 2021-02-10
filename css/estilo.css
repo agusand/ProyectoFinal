@@ -163,14 +163,14 @@
     justify-content: space-evenly; }
   .divulgadores__card {
     display: inline-block;
-    max-width: 25rem;
+    max-width: 20rem;
     margin-bottom: 4rem; }
   .divulgadores__cardBody {
     max-height: fit-content; }
   .divulgadores__imagen {
     margin: .5rem;
     max-height: fit-content;
-    max-width: 24rem; }
+    max-width: 19rem; }
 
 .piePagina {
   position: relative;
