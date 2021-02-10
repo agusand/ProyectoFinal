@@ -125,10 +125,10 @@
     margin: 1rem 2.6rem; }
   .principal__lisElem {
     margin: 0.125rem 0;
-    font-size: 0.875rem; }
+    font-size: 1rem; }
   .principal__parrafo {
     margin: .6rem 1.8rem;
-    font-size: 0.875rem; }
+    font-size: 1rem; }
   .principal__selectorCont {
     margin: 1rem 0 .5rem 1.6rem; }
   .principal__link {
@@ -350,7 +350,7 @@
   text-align: center;
   margin: 1.2rem;
   border-radius: 0.3125rem;
-  width: 50%; }
+  width: 33rem; }
 
 .principal__tablElem {
   padding: 0.3125rem; }
@@ -461,7 +461,9 @@
     min-width: 80%;
     margin: auto; }
   .inicio__quimica {
-    display: none; } }
+    display: none; }
+  .inicio__lista {
+    margin-bottom: 5rem; } }
 
 /*font-size*/
 @media all and (min-width: 1300px) {
