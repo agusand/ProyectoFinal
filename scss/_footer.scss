@@ -51,7 +51,7 @@
         transition: border-bottom .3s, padding-bottom .3s;
         border-radius   :5px;
         height: 1.5625rem;
-        padding-bottom: 0.0938rem;
+        padding: 0.0938rem .2rem;
     
         &:hover {
             border-bottom: solid turquoise;
@@ -75,6 +75,7 @@
         border        : solid 0.0313rem rgba(240, 240, 240, .5);
         border-radius: 5px;
         transition: border-bottom .3s;
+        padding: 0.0938rem .2rem;
 
         &:hover {
             border-bottom: solid turquoise;

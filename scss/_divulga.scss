@@ -25,7 +25,7 @@
         border          : solid 0.0313rem rgba(112, 112, 112, 0.795);
         transition: border-bottom .4s, padding-bottom .4s;
         border-radius   :5px;
-        padding-bottom: 0.0625rem;
+        padding: 0.0625rem .2rem;
         min-height: 1.5625rem;
 
         &:hover {

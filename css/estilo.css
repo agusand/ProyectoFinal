@@ -24,7 +24,7 @@
 .navBarra {
   margin: auto 2%;
   max-height: 40%;
-  flex-basis: 50%; }
+  position: static; }
   .navBarra__lista {
     list-style-type: none;
     display: flex;
@@ -225,7 +225,7 @@
     transition: border-bottom .3s, padding-bottom .3s;
     border-radius: 5px;
     height: 1.5625rem;
-    padding-bottom: 0.0938rem; }
+    padding: 0.0938rem .2rem; }
     .formFooter__input:hover {
       border-bottom: solid turquoise;
       padding-bottom: 0; }
@@ -242,7 +242,8 @@
     resize: vertical;
     border: solid 0.0313rem rgba(240, 240, 240, 0.5);
     border-radius: 5px;
-    transition: border-bottom .3s; }
+    transition: border-bottom .3s;
+    padding: 0.0938rem .2rem; }
     .formFooter__detalle:hover {
       border-bottom: solid turquoise; }
     .formFooter__detalle:focus {
@@ -326,7 +327,7 @@
   border: solid 0.0313rem rgba(112, 112, 112, 0.795);
   transition: border-bottom .4s, padding-bottom .4s;
   border-radius: 5px;
-  padding-bottom: 0.0625rem;
+  padding: 0.0625rem .2rem;
   min-height: 1.5625rem; }
   .principal__inpText:hover {
     border-bottom: solid turquoise;
@@ -390,7 +391,11 @@
 @media not all and (min-width: 992px) {
   .navBarra__boton {
     position: absolute;
-    right: 0; }
+    right: .5rem; }
+  .navBarra__collapse {
+    position: absolute;
+    right: 4.8vw;
+    top: 3rem; }
   .navBarra__lista {
     position: relative;
     flex-flow: column nowrap;
@@ -409,7 +414,7 @@
       border-bottom-right-radius: 10px;
       border-top-right-radius: 0px; }
   .navBarra__lisElem {
-    min-width: 50vw; }
+    min-width: 90vw; }
     .navBarra__lisElem--produc {
       display: flex;
       flex-flow: column nowrap; }
