@@ -75,7 +75,6 @@
     }
 
     &__subLista {
-        position : absolute;
         width    : 100%;
         @include flexbox (column,nowrap);
     }
