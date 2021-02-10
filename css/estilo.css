@@ -97,14 +97,14 @@
     height: 27rem;
     background-color: #d6d6d6;
     position: absolute;
-    left: 24vw;
+    left: 21vw;
     top: 7rem;
     z-index: 5; }
   .inicio__quimica {
     position: absolute;
-    height: 12rem;
-    left: 56vw;
-    top: 28rem;
+    height: 15rem;
+    left: 28rem;
+    top: 27rem;
     z-index: 10; }
 
 .principal {
@@ -455,11 +455,13 @@
     display: flex;
     flex-flow: column nowrap; } }
 
-/*form Divulgá responsive*/
+/*form Divulgá responsive e inicio responsive*/
 @media all and (max-width: 424px) {
   .textCv {
     min-width: 80%;
-    margin: auto; } }
+    margin: auto; }
+  .inicio__quimica {
+    display: none; } }
 
 /*font-size*/
 @media all and (min-width: 1300px) {

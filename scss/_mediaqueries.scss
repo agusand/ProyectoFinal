@@ -124,8 +124,6 @@
             }
         }
     }
-
-
 }
 
 /*Reducción footer*/
@@ -169,12 +167,17 @@
     }
 }
 
-/*form Divulgá responsive*/
+/*form Divulgá responsive e inicio responsive*/
 
 @media all and (max-width: 424px) {
     .textCv {
         min-width: 80%;
         margin   : auto;
+    }
+    .inicio{
+        &__quimica{
+            display: none;
+        }
     }
 }
 
