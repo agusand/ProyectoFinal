@@ -10,22 +10,28 @@
     overflow: hidden;
 }
 
-.tituloPrincipal{
-    position:absolute;
-    visibility: hidden;
-}
+
 
 .inicio{
-    height: 87vh;
+    height: 60rem;
     position: relative;
+    &__tituloPrincipal{
+        position:absolute;
+        margin: 14rem 16vw; 
+        z-index: 10;
+        font-size: 2.4rem;
+        color:#547;
+        letter-spacing: -.15rem;
+        font-stretch: ultra-condensed;
+    }
     &__adn{
         position: absolute;
-        height: 18rem;
+        height: 25rem;
         top: -4rem;
-        left: -4rem;
+        left: -5.5rem;
     }
     &__lista{
-        margin: 12rem 10vw;
+        margin: 17rem 14vw;
         list-style: none;
         z-index: 10;
     }
@@ -36,18 +42,18 @@
     }
     &__rectangulo{
         min-width: 28rem;
-        height: 27rem;
+        height: 26rem;
         background-color: rgb(214, 214, 214);
         position: absolute;
-        left: 21vw;
-        top: 7rem;
+        left: 26vw;
+        top: 13rem;
         z-index: 5;
     }
     &__quimica{
         position: absolute;
         height: 15rem;
-        left: 28rem;
-        top: 27rem;
+        left: 32rem;
+        top: 32rem;
         z-index: 10;
     }
 }

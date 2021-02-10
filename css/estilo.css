@@ -19,7 +19,7 @@
   display: block;
   object-fit: cover;
   height: 5rem;
-  margin: .95rem 2.7rem; }
+  margin: -.5rem 3rem; }
 
 .navBarra {
   margin: auto 2%;
@@ -71,20 +71,24 @@
   padding-top: 6.875rem;
   overflow: hidden; }
 
-.tituloPrincipal {
-  position: absolute;
-  visibility: hidden; }
-
 .inicio {
-  height: 87vh;
+  height: 60rem;
   position: relative; }
+  .inicio__tituloPrincipal {
+    position: absolute;
+    margin: 14rem 16vw;
+    z-index: 10;
+    font-size: 2.4rem;
+    color: #547;
+    letter-spacing: -.15rem;
+    font-stretch: ultra-condensed; }
   .inicio__adn {
     position: absolute;
-    height: 18rem;
+    height: 25rem;
     top: -4rem;
-    left: -4rem; }
+    left: -5.5rem; }
   .inicio__lista {
-    margin: 12rem 10vw;
+    margin: 17rem 14vw;
     list-style: none;
     z-index: 10; }
   .inicio__lisElem {
@@ -93,17 +97,17 @@
     color: #141828; }
   .inicio__rectangulo {
     min-width: 28rem;
-    height: 27rem;
+    height: 26rem;
     background-color: #d6d6d6;
     position: absolute;
-    left: 21vw;
-    top: 7rem;
+    left: 26vw;
+    top: 13rem;
     z-index: 5; }
   .inicio__quimica {
     position: absolute;
     height: 15rem;
-    left: 28rem;
-    top: 27rem;
+    left: 32rem;
+    top: 32rem;
     z-index: 10; }
 
 .principal {
@@ -472,8 +476,8 @@
     margin: auto; }
   .inicio__quimica {
     height: 12rem;
-    left: 23rem;
-    top: 30rem; }
+    left: 26rem;
+    top: 32rem; }
   .inicio__lista {
     margin-bottom: 5rem; } }
 
