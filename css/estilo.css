@@ -65,7 +65,8 @@
   position: relative;
   color: #333;
   width: 100%;
-  font-weight: 500; }
+  font-weight: 500;
+  min-height: 70vh; }
 
 .contenedor {
   padding-top: 6.875rem;
@@ -116,8 +117,7 @@
   margin: 0px;
   box-sizing: border-box;
   overflow: hidden auto;
-  color: #333;
-  min-height: 21rem; }
+  color: #333; }
   .principal__titulo {
     font-family: 'Dancing Script', cursive;
     padding: .6rem 1.8rem; }
