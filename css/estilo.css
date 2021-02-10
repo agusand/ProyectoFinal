@@ -71,7 +71,41 @@
     margin: 0.3125rem 0.625rem; }
 
 .contenedor {
-  padding-top: 6.875rem; }
+  padding-top: 6.875rem;
+  overflow: hidden; }
+
+.tituloPrincipal {
+  position: absolute;
+  visibility: hidden; }
+
+.inicio {
+  min-height: 20rem;
+  position: relative; }
+  .inicio__adn {
+    position: absolute;
+    height: 18rem;
+    top: -4rem;
+    left: -4rem; }
+  .inicio__lista {
+    margin: 12rem 10vw;
+    list-style: none;
+    z-index: 10; }
+  .inicio__lisElem {
+    font-size: 3.5rem; }
+  .inicio__rectangulo {
+    min-width: 28rem;
+    height: 27rem;
+    background-color: #d6d6d6;
+    position: absolute;
+    left: 24vw;
+    top: 7rem;
+    z-index: 5; }
+  .inicio__quimica {
+    position: absolute;
+    height: 12rem;
+    left: 56vw;
+    top: 28rem;
+    z-index: 10; }
 
 .principal {
   background-color: white;

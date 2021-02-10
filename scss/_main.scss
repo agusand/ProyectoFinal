@@ -11,6 +11,47 @@
 
 .contenedor {
     padding-top: 6.875rem;
+    overflow: hidden;
+}
+
+.tituloPrincipal{
+    position:absolute;
+    visibility: hidden;
+}
+
+.inicio{
+    min-height: 20rem;
+    position: relative;
+    &__adn{
+        position: absolute;
+        height: 18rem;
+        top: -4rem;
+        left: -4rem;
+    }
+    &__lista{
+        margin: 12rem 10vw;
+        list-style: none;
+        z-index: 10;
+    }
+    &__lisElem{
+        font-size: 3.5rem;
+    }
+    &__rectangulo{
+        min-width: 28rem;
+        height: 27rem;
+        background-color: rgb(214, 214, 214);
+        position: absolute;
+        left: 24vw;
+        top: 7rem;
+        z-index: 5;
+    }
+    &__quimica{
+        position: absolute;
+        height: 12rem;
+        left: 56vw;
+        top: 28rem;
+        z-index: 10;
+    }
 }
 
 .principal {
