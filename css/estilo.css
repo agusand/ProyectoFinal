@@ -162,7 +162,7 @@
     width: 100%;
     margin: 1.2rem 0 0 1.6rem; }
   .divulgadores__imgCont {
-    margin: 0.625rem 0.8rem;
+    margin: 0.625rem 1.8rem 0.625rem .8rem;
     max-height: 100%;
     max-width: 5.9rem; }
     .divulgadores__imgCont > img {
@@ -378,9 +378,7 @@
 @media all and (max-width: 767px) {
   .principal__fieldset {
     align-items: center;
-    max-width: 100vw; }
-  .divulgadores {
-    display: none; } }
+    max-width: 100vw; } }
 
 /*Reducción nav*/
 @media not all and (min-width: 992px) {
