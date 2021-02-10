@@ -115,48 +115,31 @@
 
 .divulgadores {
     background-color: rgb(255, 255, 255);
-    margin          : 0px;
-    overflow        : hidden auto;
+    padding         : 1rem 2rem;
+    margin          : 0 0 4rem 0;
     box-sizing      : border-box;
-    align-content   : center;
+    overflow        : hidden auto;
+    color           : #333;
 
     &__titulo {
-        padding: 1.5rem 2.4rem;
         font-family: 'Dancing Script', cursive;
+        padding: 1.6rem 1.8rem;
     }
-
-    &__section {
-        @include flexbox (row,nowrap);
-        margin : 1.3125rem 0;
-        height : 12rem;
-        justify-content: space-between
-    }
-
-    &__texto {
-        @include flexbox (column,nowrap);
+    &__body{
+        width: 100%;        
+        @include flexbox (row,wrap);
         justify-content: space-evenly;
-        width: 100%;
-        margin : 1.2rem 0 0 1.6rem;
     }
-
-    &__imgCont {
-        margin: 0.625rem 1.8rem 0.625rem .8rem;
-        max-height: 100%;
-        max-width: 5.9rem;
-
-        &>img {
-            display      : block;
-            object-fit   : cover;
-            max-height   : 100%;
-            border-radius: 0.3125rem;
-        }
+    &__card{
+        display: inline-block;
+        max-width: 25rem;
     }
-
-    &__subTitulo {
-        font-size: 1.2rem;
+    &__cardBody{
+        max-height: fit-content;
     }
-
-    &__parrafo {
-        font-size: .8rem;
+    &__imagen {
+        margin: .5rem;
+        max-height:fit-content;
+        max-width: 24rem;
     }
 }

@@ -148,38 +148,28 @@
 
 .divulgadores {
   background-color: white;
-  margin: 0px;
-  overflow: hidden auto;
+  padding: 1rem 2rem;
+  margin: 0 0 4rem 0;
   box-sizing: border-box;
-  align-content: center; }
+  overflow: hidden auto;
+  color: #333; }
   .divulgadores__titulo {
-    padding: 1.5rem 2.4rem;
-    font-family: 'Dancing Script', cursive; }
-  .divulgadores__section {
-    display: flex;
-    flex-flow: row nowrap;
-    margin: 1.3125rem 0;
-    height: 12rem;
-    justify-content: space-between; }
-  .divulgadores__texto {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-evenly;
+    font-family: 'Dancing Script', cursive;
+    padding: 1.6rem 1.8rem; }
+  .divulgadores__body {
     width: 100%;
-    margin: 1.2rem 0 0 1.6rem; }
-  .divulgadores__imgCont {
-    margin: 0.625rem 1.8rem 0.625rem .8rem;
-    max-height: 100%;
-    max-width: 5.9rem; }
-    .divulgadores__imgCont > img {
-      display: block;
-      object-fit: cover;
-      max-height: 100%;
-      border-radius: 0.3125rem; }
-  .divulgadores__subTitulo {
-    font-size: 1.2rem; }
-  .divulgadores__parrafo {
-    font-size: .8rem; }
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; }
+  .divulgadores__card {
+    display: inline-block;
+    max-width: 25rem; }
+  .divulgadores__cardBody {
+    max-height: fit-content; }
+  .divulgadores__imagen {
+    margin: .5rem;
+    max-height: fit-content;
+    max-width: 24rem; }
 
 .piePagina {
   position: relative;
