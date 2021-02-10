@@ -156,6 +156,23 @@
     }
 }
 
+/*Productos y tabla responsive*/
+
+@media all and (max-width: 599px) {
+    .principal {
+        &__tabla {
+            text-align   : center;
+            margin       : 1.2rem;
+            border-radius: 0.3125rem;
+            width: 85vw;
+        }
+        
+        &__tablElem {
+            padding: .5rem;
+        }
+    }  
+}
+
 /*font-size*/
 
 @media all and (min-width: 1300px){
