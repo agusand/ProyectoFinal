@@ -307,7 +307,8 @@
   text-align: center; }
 
 .principal__inpCont {
-  width: 60%; }
+  width: 85%;
+  max-width: 30rem; }
 
 .principal__formLabel {
   display: block; }
