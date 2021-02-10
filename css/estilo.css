@@ -163,14 +163,14 @@
     justify-content: space-evenly; }
   .divulgadores__card {
     display: inline-block;
-    max-width: 20rem;
+    max-width: 19rem;
     margin-bottom: 4rem; }
   .divulgadores__cardBody {
     max-height: fit-content; }
   .divulgadores__imagen {
     margin: .5rem;
     max-height: fit-content;
-    max-width: 19rem; }
+    max-width: 18rem; }
 
 .piePagina {
   position: relative;
@@ -362,24 +362,14 @@
 .principal__tablIcon--cross {
   color: red; }
 
-/*Reducción de aside*/
-@media all and (max-width: 991px) {
-  .divulgadores__section {
-    margin: 0;
-    padding: 0; }
-  .divulgadores__imgCont {
-    padding: 0 0.8rem; }
-  .divulgadores__texto {
-    margin-left: 1.7rem;
-    justify-content: space-around; } }
-
+/* Form divulgá */
 @media all and (max-width: 767px) {
   .principal__fieldset {
     align-items: center;
     max-width: 100vw; } }
 
 /*Reducción nav*/
-@media not all and (min-width: 992px) {
+@media all and (max-width: 992px) {
   .navBarra__boton {
     position: absolute;
     right: .5rem; }
@@ -411,12 +401,6 @@
       flex-flow: column nowrap; }
   .navBarra__subLista {
     position: none; } }
-
-@media all and (max-width: 319px) {
-  .encabezado {
-    justify-content: center; }
-  .navBarra {
-    display: none; } }
 
 @media all and (min-width: 992px) {
   .navBarra__lisElem--sec {
@@ -453,10 +437,6 @@
     .formFooter__fieldSet {
       height: 23.75rem; } }
 
-@media all and (max-width: 424px) {
-  .contacto__imgRedes {
-    margin: 1.25rem 0.5625rem; } }
-
 @media all and (max-width: 320px) {
   .piePagina {
     height: 65.625rem;
@@ -465,11 +445,8 @@
     display: flex;
     flex-flow: column nowrap; } }
 
-/*form Divulgá responsive e inicio responsive*/
+/*Inicio responsive*/
 @media all and (max-width: 424px) {
-  .textCv {
-    min-width: 80%;
-    margin: auto; }
   .inicio__quimica {
     height: 12rem;
     left: 26rem;

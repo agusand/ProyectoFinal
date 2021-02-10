@@ -1,23 +1,4 @@
-/*Reducción de aside*/
-
-@media all and (max-width: 991px) {
-    .divulgadores {
-        &__section {
-            margin: 0;
-            padding: 0;
-        }
-
-        &__imgCont {
-            padding: 0 0.8rem;
-        }
-
-        &__texto {
-            margin-left: 1.7rem;
-            justify-content: space-around;
-        }
-
-    }
-}
+/* Form divulgá */
 
 @media all and (max-width: 767px) {
     .principal{
@@ -30,7 +11,7 @@
 
 /*Reducción nav*/
 
-@media not all and (min-width: 992px) {
+@media all and (max-width: 992px) {
     .navBarra {
         &__boton {
             position: absolute;
@@ -78,17 +59,6 @@
         &__subLista {
             position: none;
         }
-    }
-}
-
-@media all and (max-width: 319px) {
-
-    .encabezado {
-        justify-content: center;
-    }
-
-    .navBarra {
-        display: none;
     }
 }
 
@@ -159,14 +129,6 @@
 
 }
 
-@media all and (max-width: 424px) {
-    .contacto {
-        &__imgRedes {
-            margin: 1.25rem 0.5625rem;
-        }
-    }
-}
-
 @media all and (max-width: 320px) {
     .piePagina{
     height               : 65.625rem;
@@ -179,13 +141,9 @@
     }
 }
 
-/*form Divulgá responsive e inicio responsive*/
+/*Inicio responsive*/
 
 @media all and (max-width: 424px) {
-    .textCv {
-        min-width: 80%;
-        margin   : auto;
-    }
     .inicio{
         &__quimica{
             height: 12rem;
@@ -217,7 +175,6 @@
         font-size: 16px
     }
 }
-
 
 @media all and (min-width: 600px) and (max-width: 1099px){
     * {
