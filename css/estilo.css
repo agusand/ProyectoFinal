@@ -470,14 +470,21 @@
 @media all and (max-width: 426px) {
   .inicio {
     margin-top: 10vh; }
+    .inicio__tituloPrincipal {
+      font-size: 2.5rem; }
     .inicio__adn {
       top: -15vh; }
     .inicio__quimica {
-      height: 12rem;
+      height: 15rem;
       left: 26rem;
-      top: 32rem; }
+      top: 35rem; }
     .inicio__lista {
-      margin-bottom: 5rem; } }
+      margin-bottom: 5rem; }
+    .inicio__lisElem {
+      font-size: 4rem; }
+    .inicio__rectangulo {
+      min-width: 32rem;
+      height: 30rem; } }
 
 /*Productos y tabla responsive*/
 @media all and (max-width: 599px) {
