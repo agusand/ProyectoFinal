@@ -119,30 +119,30 @@
   overflow: hidden auto;
   color: #333; }
   .principal__titulo {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: .6rem 1.8rem;
     font-weight: 400; }
   .principal__section {
     margin-top: 3rem;
     margin-bottom: 7.5rem; }
   .principal__subtitulo {
-    font-size: 1.875rem;
+    font-size: 1.5625rem;
     padding: .3rem 1.6rem;
     font-weight: bold; }
   .principal__lista {
     margin: 1rem 2.6rem; }
   .principal__lisElem {
     margin: 0.125rem 0;
-    font-size: 1.5rem; }
+    font-size: 1.25rem; }
   .principal__link {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 400; }
   .principal__parrafo {
     margin: .6rem 1.8rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: thin; }
   .principal__bold {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: bold; }
   .principal__selectorCont {
     margin: 1rem 0 .5rem 1.6rem; }
@@ -168,7 +168,7 @@
   .divulgadores__titulo {
     font-family: 'Roboto', sans-serif;
     padding: 1.6rem 1.8rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 400; }
   .divulgadores__body {
     width: 100%;
@@ -180,7 +180,9 @@
     max-width: 19rem;
     margin-bottom: 4rem; }
   .divulgadores__cardBody {
-    max-height: fit-content; }
+    max-height: fit-content;
+    font-size: 1.25rem;
+    font-weight: thin; }
   .divulgadores__imagen {
     margin: .5rem;
     max-height: fit-content;
@@ -368,11 +370,11 @@
   text-align: center;
   margin: 1.2rem;
   border-radius: 0.3125rem;
-  width: 50rem; }
+  width: 45rem; }
 
 .principal__tablElem {
   padding: 0.3125rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: thin; }
 
 .principal__tablIcon--check {
@@ -465,7 +467,7 @@
     flex-flow: column nowrap; } }
 
 /*Inicio responsive*/
-@media all and (max-width: 425px) {
+@media all and (max-width: 426px) {
   .inicio {
     margin-top: 10vh; }
     .inicio__adn {
