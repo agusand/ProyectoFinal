@@ -121,14 +121,14 @@
   color: #333; }
   .principal__titulo {
     font-size: 1.25rem;
-    padding: 1.5rem 1.8rem 1rem;
+    padding: 1.5rem 1.8rem .8rem;
     font-weight: 400; }
   .principal__section {
     margin-top: 3rem;
     margin-bottom: 7.5rem; }
   .principal__subtitulo {
     font-size: 1.5625rem;
-    padding: .3rem 1.6rem 1rem;
+    padding: .5rem 1.6rem 1rem;
     font-weight: bold; }
   .principal__lista {
     margin: 1rem 2.6rem; }
