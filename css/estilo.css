@@ -73,6 +73,7 @@
   overflow: hidden; }
 
 .inicio {
+  min-height: 50vw;
   height: 100vh;
   position: relative; }
   .inicio__tituloPrincipal {
