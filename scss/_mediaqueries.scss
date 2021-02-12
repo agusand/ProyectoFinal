@@ -11,7 +11,7 @@
 
 /*Reducción nav*/
 
-@media all and (max-width: 992px) {
+@media not all and (min-width: 992px) {
     .navBarra {
         &__boton {
             position: absolute;
@@ -143,6 +143,11 @@
 
 /*Inicio responsive*/
 
+@media all and (max-height: 50vw) and (max-width: 1000px){
+    .inicio{
+        height: 60vw;
+    }
+}
 @media all and (max-width: 426px) {
     .inicio{
         margin-top: 10vh;
@@ -151,7 +156,7 @@
             font-size: 2.5rem;
         }
         &__adn{
-            top: -15vh;
+            top: -17vh;
         }
         &__quimica{
             height: 15rem;
