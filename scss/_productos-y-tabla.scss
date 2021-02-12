@@ -3,11 +3,13 @@
         text-align   : center;
         margin       : 1.2rem;
         border-radius: 0.3125rem;
-        width: 33rem;
+        width: 50rem;
     }
 
     &__tablElem {
         padding: 0.3125rem;
+        font-size: 1.5rem;
+        font-weight: thin;
     }
 
     &__tablIcon {

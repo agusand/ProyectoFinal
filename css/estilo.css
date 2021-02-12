@@ -73,7 +73,7 @@
   overflow: hidden; }
 
 .inicio {
-  height: 60rem;
+  height: 100vh;
   position: relative; }
   .inicio__tituloPrincipal {
     position: absolute;
@@ -119,19 +119,31 @@
   overflow: hidden auto;
   color: #333; }
   .principal__titulo {
-    font-family: 'Dancing Script', cursive;
-    padding: .6rem 1.8rem; }
+    font-size: 1.5rem;
+    padding: .6rem 1.8rem;
+    font-weight: 400; }
+  .principal__section {
+    margin-top: 3rem;
+    margin-bottom: 7.5rem; }
   .principal__subtitulo {
-    font-size: 1.25rem;
-    padding: .3rem 1.6rem; }
+    font-size: 1.875rem;
+    padding: .3rem 1.6rem;
+    font-weight: bold; }
   .principal__lista {
     margin: 1rem 2.6rem; }
   .principal__lisElem {
     margin: 0.125rem 0;
-    font-size: 1rem; }
+    font-size: 1.5rem; }
+  .principal__link {
+    font-size: 1.5rem;
+    font-weight: 400; }
   .principal__parrafo {
     margin: .6rem 1.8rem;
-    font-size: 1rem; }
+    font-size: 1.5rem;
+    font-weight: thin; }
+  .principal__bold {
+    font-size: 1.5rem;
+    font-weight: bold; }
   .principal__selectorCont {
     margin: 1rem 0 .5rem 1.6rem; }
   .principal__link {
@@ -154,8 +166,10 @@
   overflow: hidden auto;
   color: #333; }
   .divulgadores__titulo {
-    font-family: 'Dancing Script', cursive;
-    padding: 1.6rem 1.8rem; }
+    font-family: 'Roboto', sans-serif;
+    padding: 1.6rem 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 400; }
   .divulgadores__body {
     width: 100%;
     display: flex;
@@ -295,6 +309,9 @@
   color: #b4b4b4;
   text-decoration: none; }
 
+* {
+  font-family: 'Roboto', sans-serif; }
+
 .principal__fieldset {
   display: flex;
   flex-flow: column nowrap;
@@ -351,10 +368,12 @@
   text-align: center;
   margin: 1.2rem;
   border-radius: 0.3125rem;
-  width: 33rem; }
+  width: 50rem; }
 
 .principal__tablElem {
-  padding: 0.3125rem; }
+  padding: 0.3125rem;
+  font-size: 1.5rem;
+  font-weight: thin; }
 
 .principal__tablIcon--check {
   color: green; }
@@ -446,13 +465,17 @@
     flex-flow: column nowrap; } }
 
 /*Inicio responsive*/
-@media all and (max-width: 424px) {
-  .inicio__quimica {
-    height: 12rem;
-    left: 26rem;
-    top: 32rem; }
-  .inicio__lista {
-    margin-bottom: 5rem; } }
+@media all and (max-width: 425px) {
+  .inicio {
+    margin-top: 10vh; }
+    .inicio__adn {
+      top: -15vh; }
+    .inicio__quimica {
+      height: 12rem;
+      left: 26rem;
+      top: 32rem; }
+    .inicio__lista {
+      margin-bottom: 5rem; } }
 
 /*Productos y tabla responsive*/
 @media all and (max-width: 599px) {

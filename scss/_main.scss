@@ -14,7 +14,7 @@
 
 
 .inicio{
-    height: 60rem;
+    height: 100vh;
     position: relative;
     &__tituloPrincipal{
         position:absolute;
@@ -68,13 +68,20 @@
     color           : #333;
 
     &__titulo {
-        font-family: 'Dancing Script', cursive;
+        font-size: 1.5rem;
         padding: .6rem 1.8rem;
+        font-weight: 400;
+    }
+
+    &__section{
+        margin-top:3rem;
+        margin-bottom: 7.5rem;
     }
 
     &__subtitulo {
-        font-size: 1.25rem;
+        font-size: 1.875rem;
         padding: .3rem 1.6rem;
+        font-weight: bold;
     }
 
     &__lista {
@@ -83,12 +90,23 @@
 
     &__lisElem {
         margin   : 0.125rem 0;
-        font-size: 1rem;
+        font-size: 1.5rem;
+    }
+
+    &__link{
+        font-size: 1.5rem;
+        font-weight: 400;
     }
 
     &__parrafo {
         margin: .6rem 1.8rem;
-        font-size  : 1rem;
+        font-size  : 1.5rem;
+        font-weight: thin;
+    }
+
+    &__bold{
+        font-size  : 1.5rem;
+        font-weight: bold;
     }
 
     &__selectorCont{
@@ -122,8 +140,10 @@
     color           : #333;
 
     &__titulo {
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Roboto', sans-serif;
         padding: 1.6rem 1.8rem;
+        font-size: 1.5rem;
+        font-weight: 400;
     }
     &__body{
         width: 100%;        

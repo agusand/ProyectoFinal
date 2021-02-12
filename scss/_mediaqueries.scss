@@ -143,8 +143,12 @@
 
 /*Inicio responsive*/
 
-@media all and (max-width: 424px) {
+@media all and (max-width: 425px) {
     .inicio{
+        margin-top: 10vh;
+        &__adn{
+            top: -15vh;
+        }
         &__quimica{
             height: 12rem;
             left: 26rem;
