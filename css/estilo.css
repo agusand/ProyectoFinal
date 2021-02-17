@@ -128,20 +128,23 @@
   box-sizing: border-box;
   overflow: hidden auto;
   color: #333; }
-  .principal__sectionInicio {
-    display: grid;
-    grid-template-columns: 2rem 1fr 2rem;
-    grid-template-rows: 5rem 3rem 1fr 5rem; }
   .principal__section {
     display: grid;
     grid-template-columns: 2rem 1fr 2rem;
     grid-template-rows: 3rem 0 1fr 1rem;
     margin: 1rem 0; }
+    .principal__section--inicio {
+      display: grid;
+      grid-template-columns: 2rem 1fr 2rem;
+      grid-template-rows: 5rem 3rem 1fr 5rem; }
   .principal__titulo {
     grid-row: 1/2;
     grid-column: 2/3;
     font-size: 1.25rem;
     font-weight: 400; }
+    .principal__titulo--prodLinks {
+      font-size: 1.5625rem;
+      font-weight: bold; }
   .principal__subtitulo {
     grid-row: 2/3;
     grid-column: 2/3;
@@ -166,7 +169,10 @@
     font-size: 1.25rem;
     font-weight: bold; }
   .principal__link {
-    margin: 0rem 1.6rem; }
+    margin: 0rem 1.6rem;
+    color: #17323f; }
+    .principal__link--productos {
+      margin: 0; }
   .principal__selector {
     color: #f0f0f0;
     background: #3d413f;
@@ -177,6 +183,19 @@
     .principal__selector:hover {
       padding-bottom: 0px;
       border-bottom: solid turquoise; }
+  .principal__tabla {
+    text-align: center;
+    margin: 1.2rem;
+    border-radius: 0.3125rem;
+    width: 45rem; }
+  .principal__tablElem {
+    padding: 0.3125rem;
+    font-size: 1.25rem;
+    font-weight: thin; }
+  .principal__tablIcon--check {
+    color: green; }
+  .principal__tablIcon--cross {
+    color: red; }
 
 .divulgadores {
   background-color: white;
@@ -385,23 +404,6 @@
 .principal__botonCont {
   display: inline-block;
   max-width: 85%; }
-
-.principal__tabla {
-  text-align: center;
-  margin: 1.2rem;
-  border-radius: 0.3125rem;
-  width: 45rem; }
-
-.principal__tablElem {
-  padding: 0.3125rem;
-  font-size: 1.25rem;
-  font-weight: thin; }
-
-.principal__tablIcon--check {
-  color: green; }
-
-.principal__tablIcon--cross {
-  color: red; }
 
 /* Form divulgá */
 @media all and (max-width: 767px) {

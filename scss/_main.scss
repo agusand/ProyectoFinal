@@ -76,18 +76,17 @@
     overflow        : hidden auto;
     color           : #333;
 
-
-    &__sectionInicio{
-        display: grid;
-        grid-template-columns: 2rem 1fr 2rem;
-        grid-template-rows: 5rem 3rem 1fr 5rem;
-    }
-
     &__section{
         display: grid;
         grid-template-columns: 2rem 1fr 2rem;
         grid-template-rows: 3rem 0 1fr 1rem;
         margin: 1rem 0;
+
+        &--inicio{
+            display: grid;
+            grid-template-columns: 2rem 1fr 2rem;
+            grid-template-rows: 5rem 3rem 1fr 5rem;
+        }
     }
 
     &__titulo {
@@ -95,6 +94,11 @@
         grid-column: 2/3;
         font-size: 1.25rem;
         font-weight: 400;
+
+        &--prodLinks{
+            font-size: 1.5625rem;
+            font-weight: bold;
+        }
     }
 
     &__subtitulo {
@@ -135,6 +139,10 @@
 
     &__link{
         margin: 0rem 1.6rem;
+        color: rgb(23, 50, 63);
+        &--productos{
+            margin: 0;
+        }
     }
 
     &__selector {
@@ -147,6 +155,29 @@
         &:hover {
             padding-bottom: 0px;
             border-bottom : solid turquoise;
+        }
+    }
+    
+    &__tabla {
+        text-align   : center;
+        margin       : 1.2rem;
+        border-radius: 0.3125rem;
+        width: 45rem;
+    }
+
+    &__tablElem {
+        padding: 0.3125rem;
+        font-size: 1.25rem;
+        font-weight: thin;
+    }
+
+    &__tablIcon {
+        &--check {
+            color: green;
+        }
+
+        &--cross {
+            color: red;
         }
     }
 }
