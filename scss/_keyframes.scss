@@ -7,6 +7,18 @@
     }
 }
 
+@keyframes valores {
+    0% {
+        margin-left: 0;
+    }
+    70% {
+        margin-left: 2.3rem;
+    }
+    100% {
+        margin-left: 1.5rem;
+    }
+}
+
 @keyframes contacto {
     from {
         transform: scale(1);

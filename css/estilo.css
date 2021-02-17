@@ -76,8 +76,8 @@
   overflow: hidden; }
 
 .inicio {
-  min-height: 60vw;
-  height: 45rem;
+  min-height: 50vw;
+  height: 50rem;
   display: grid;
   grid-template-columns: repeat(9, minmax(5rem, 1fr));
   grid-template-rows: 10rem 7rem 3rem 20rem 2rem; }
@@ -104,6 +104,9 @@
     font-size: 3.5rem;
     font-weight: 750;
     color: #141828; }
+    .inicio__lisElem:hover {
+      animation: valores 0.4s ease-out;
+      margin-left: 1.5rem; }
   .inicio__rectangulo {
     grid-column: 3 / 7;
     grid-row: 3 / 5;
@@ -513,6 +516,14 @@
     opacity: 0; }
   to {
     opacity: 1; } }
+
+@keyframes valores {
+  0% {
+    margin-left: 0; }
+  70% {
+    margin-left: 2.3rem; }
+  100% {
+    margin-left: 1.5rem; } }
 
 @keyframes contacto {
   from {
