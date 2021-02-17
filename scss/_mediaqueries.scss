@@ -11,7 +11,7 @@
 
 /*Reducción nav*/
 
-@media not all and (min-width: 992px) {
+@media all and (max-width: 992px) {
     .navBarra {
         &__boton {
             position: absolute;
@@ -35,7 +35,7 @@
         &__link {
             background-color: rgba(21, 21, 21, 0.6);
             color           : #eee;
-
+            border-radius: 0;
             &--izq {
                 border-top-left-radius   : 10px;
                 border-top-right-radius  : 10px;
@@ -90,20 +90,6 @@
             &#{&}:hover {
                 background-color: rgba(51,51,51,1);
             }
-            &--izq {
-                border-top-left-radius   : 10px;
-                border-bottom-left-radius: 10px;
-            }
-
-            &--der {
-                border-top-right-radius   : 10px;
-                border-bottom-right-radius: 10px;
-            }
-        }
-    }
-    .inicio{
-        &__quimica{
-            left: 37rem;
         }
     }
 }
@@ -129,49 +115,19 @@
 
 }
 
-@media all and (max-width: 320px) {
-    .piePagina{
-    height               : 65.625rem;
-    grid-template-rows   : 25rem 12.5rem 28.125rem;
-    }
-    .contacto {
-        &__redes {
-            @include flexbox (column,nowrap);
-        }
-    }
-}
-
 /*Inicio responsive*/
 
-@media all and (max-height: 50vw) and (max-width: 1000px){
-    .inicio{
-        height: 60vw;
-    }
-}
 @media all and (max-width: 426px) {
     .inicio{
-        margin-top: 10vh;
 
         &__tituloPrincipal{
-            font-size: 2.5rem;
-        }
-        &__adn{
-            top: -17vh;
+            grid-column: 2/9;
         }
         &__quimica{
-            height: 15rem;
-            left: 26rem;
-            top: 35rem;
-        }
-        &__lista{
-            margin-bottom: 5rem;
-        }
-        &__lisElem{
-            font-size: 4rem;
+            grid-column: 8/9;
         }
         &__rectangulo{
-            min-width: 32rem;
-            height: 30rem;
+            grid-column: 3/8;
         }
     }
 }
@@ -219,7 +175,7 @@
     }
 }
 
-@media all and (max-width: 599px){
+@media all and (max-width: 600px){
     * {
         font-size: 8px
     }
