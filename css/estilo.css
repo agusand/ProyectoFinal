@@ -405,13 +405,7 @@
   display: inline-block;
   max-width: 85%; }
 
-/* Form divulgá */
-@media all and (max-width: 767px) {
-  .principal__fieldset {
-    align-items: center;
-    max-width: 100vw; } }
-
-/*Reducción nav*/
+/*Nav responsive*/
 @media all and (max-width: 992px) {
   .navBarra__boton {
     position: absolute;
@@ -461,8 +455,8 @@
   .navBarra__link.navBarra__link:hover {
     background-color: #333333; } }
 
-/*Reducción footer*/
-@media all and (max-width: 880px) {
+/*Footer responsive*/
+@media all and (max-width: 768px) {
   .piePagina {
     height: 50rem;
     grid-template-columns: 100vw;
@@ -473,45 +467,44 @@
     .formFooter__fieldSet {
       height: 23.75rem; } }
 
-/*Inicio responsive*/
-@media all and (max-width: 426px) {
-  .inicio__tituloPrincipal {
-    grid-column: 2/9; }
-  .inicio__quimica {
-    grid-column: 8/9; }
-  .inicio__rectangulo {
-    grid-column: 3/8; } }
+/*font-size*/
+@media all and (min-width: 1200px) {
+  :root {
+    font-size: 18px; } }
 
-/*Productos y tabla responsive*/
-@media all and (max-width: 599px) {
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  :root {
+    font-size: 14px; } }
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+  :root {
+    font-size: 12px; } }
+
+@media all and (min-width: 576px) and (max-width: 768px) {
+  :root {
+    font-size: 10px; } }
+
+@media all and (max-width: 576px) {
+  :root {
+    font-size: 8px; }
+  /* Formulario divulgá, productos y tabla responsive */
+  .principal__fieldset {
+    align-items: center;
+    max-width: 100vw; }
   .principal__tabla {
     text-align: center;
     margin: 1.2rem;
     border-radius: 0.3125rem;
     width: 85vw; }
   .principal__tablElem {
-    padding: .5rem; } }
-
-/*font-size*/
-@media all and (min-width: 1300px) {
-  * {
-    font-size: 25px; } }
-
-@media all and (min-width: 1780px) and (max-width: 2299px) {
-  * {
-    font-size: 20px; } }
-
-@media all and (min-width: 1100px) and (max-width: 1779px) {
-  * {
-    font-size: 16px; } }
-
-@media all and (min-width: 600px) and (max-width: 1099px) {
-  * {
-    font-size: 12px; } }
-
-@media all and (max-width: 600px) {
-  * {
-    font-size: 8px; } }
+    padding: .5rem; }
+  /*Inicio responsive*/
+  .inicio__tituloPrincipal {
+    grid-column: 2/9; }
+  .inicio__quimica {
+    grid-column: 7/8; }
+  .inicio__rectangulo {
+    grid-column: 3/8; } }
 
 @keyframes menu {
   from {

@@ -1,15 +1,4 @@
-/* Form divulgá */
-
-@media all and (max-width: 767px) {
-    .principal{
-        &__fieldset{
-            align-items: center;
-            max-width: 100vw;
-        }
-    }
-}
-
-/*Reducción nav*/
+/*Nav responsive*/
 
 @media all and (max-width: 992px) {
     .navBarra {
@@ -94,9 +83,9 @@
     }
 }
 
-/*Reducción footer*/
+/*Footer responsive*/
 
-@media all and (max-width: 880px) {
+@media all and (max-width: 768px) {
     .piePagina {
         height               : 50rem;
         grid-template-columns: 100vw;
@@ -115,27 +104,45 @@
 
 }
 
-/*Inicio responsive*/
+/*font-size*/
 
-@media all and (max-width: 426px) {
-    .inicio{
-
-        &__tituloPrincipal{
-            grid-column: 2/9;
-        }
-        &__quimica{
-            grid-column: 8/9;
-        }
-        &__rectangulo{
-            grid-column: 3/8;
-        }
+@media all and (min-width: 1200px){
+    :root {
+        font-size: 18px
     }
 }
 
-/*Productos y tabla responsive*/
+@media all and (min-width: 992px)  and (max-width: 1200px) {
+    :root {
+        font-size: 14px
+    }
+}
 
-@media all and (max-width: 599px) {
-    .principal {
+@media all and (min-width: 768px)  and (max-width: 992px) {
+    :root {
+        font-size: 12px
+    }
+}
+
+@media all and (min-width: 576px) and (max-width: 768px){
+    :root {
+        font-size: 10px
+    }
+}
+
+@media all and (max-width: 576px){
+    :root {
+        font-size: 8px
+    }
+
+    /* Formulario divulgá, productos y tabla responsive */ 
+
+    .principal{
+        &__fieldset{
+            align-items: center;
+            max-width: 100vw;
+        }
+        
         &__tabla {
             text-align   : center;
             margin       : 1.2rem;
@@ -146,37 +153,20 @@
         &__tablElem {
             padding: .5rem;
         }
-    }  
-}
-
-/*font-size*/
-
-@media all and (min-width: 1300px){
-    * {
-        font-size: 25px
     }
-}
 
-@media all and (min-width: 1780px)  and (max-width: 2299px) {
-    * {
-        font-size: 20px
-    }
-}
+    /*Inicio responsive*/
 
-@media all and (min-width: 1100px)  and (max-width: 1779px) {
-    * {
-        font-size: 16px
-    }
-}
+    .inicio{
 
-@media all and (min-width: 600px) and (max-width: 1099px){
-    * {
-        font-size: 12px
-    }
-}
-
-@media all and (max-width: 600px){
-    * {
-        font-size: 8px
+        &__tituloPrincipal{
+            grid-column: 2/9;
+        }
+        &__quimica{
+            grid-column: 7/8;
+        }
+        &__rectangulo{
+            grid-column: 3/8;
+        }
     }
 }
