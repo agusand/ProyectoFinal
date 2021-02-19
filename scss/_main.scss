@@ -1,9 +1,9 @@
 .main {
     position   : relative;
+    grid-row: 1/3;
     color      : #333;
     width      : 100%;
     font-weight: 500;
-    min-height: 60vh;
 }
 
 .contenedor {

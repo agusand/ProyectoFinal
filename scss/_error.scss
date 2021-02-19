@@ -1,0 +1,15 @@
+/*Estilo error 404*/
+
+.error{
+    text-align: center;
+    padding: 2rem;
+    &__titulo{
+        font-size: 3.5rem;
+    }
+    &__cuerpo{
+        padding: 1rem;
+    }
+    &__parrafo{
+        font-size: 1.2rem;
+    }
+}

@@ -53,10 +53,12 @@
                         <a class="navBarra__link nav-link" href="productos.html">PRODUCTOS</a>
                         <ul class="navBarra__subLista">
                             <li class="navBarra__lisElem navBarra__lisElem--sec nav-item">
-                                <a class="navBarra__link navBarra__link--secundario nav-link" href="prodxarea.html">x ÁREA</a>
+                                <a class="navBarra__link navBarra__link--secundario nav-link" href="prodxarea.html">x
+                                    ÁREA</a>
                             </li>
                             <li class="navBarra__lisElem navBarra__lisElem--sec nav-item">
-                                <a class="navBarra__link navBarra__link--secundario navBarra__link--secUlt nav-link" href="prodxdivu.html">x
+                                <a class="navBarra__link navBarra__link--secundario navBarra__link--secUlt nav-link"
+                                    href="prodxdivu.html">x
                                     DIVULGADOR</a>
                             </li>
                         </ul>
@@ -71,35 +73,15 @@
     <main class="main">
         <div class="contenedor">
             <!--Sección principal-->
-            <article class="principal">
-                <h2 class="principal__titulo">TABLA DE PRECIOS</h2>
-                <div class="principal__cuerpo">
-                    <table class="principal__tabla table-dark table-striped">
-                        <tr>
-                            <td class="principal__tablElem"></td>
-                            <td class="principal__tablElem">1 producto</td>
-                            <td class="principal__tablElem">2 productos</td>
-                            <td class="principal__tablElem">3 productos</td>
-                        </tr>
-                        <tr>
-                            <td class="principal__tablElem">Texto</td>
-                            <td class="principal__tablElem">$300</td>
-                            <td class="principal__tablElem">$500</td>
-                            <td class="principal__tablElem">$750</td>
-                        </tr>
-                        <tr>
-                            <td class="principal__tablElem">Audio</td>
-                            <td class="principal__tablElem">$500</td>
-                            <td class="principal__tablElem">$900</td>
-                            <td class="principal__tablElem">$1350</td>
-                        </tr>
-                        <tr>
-                            <td class="principal__tablElem">Audiovisual</td>
-                            <td class="principal__tablElem">$700</td>
-                            <td class="principal__tablElem">$1250</td>
-                            <td class="principal__tablElem">$1800</td>
-                        </tr>
-                    </table>
+            <article class="error">
+                <h2 class="error__titulo">Error 404</h2>
+                <div class="error__cuerpo">
+                    <p class="error__parrafo">
+                        Lo siento, la página a la que está intentando acceder no existe!
+                    </p>
+                    <p class="error__parrafo">
+                        Por favor, corrobore la URL o vuelva a la página anterior.
+                    </p>
                 </div>
             </article>
         </div>
@@ -121,8 +103,8 @@
                     </select>
                 </div>
                 <div class="formFooter__contenido">
-                    <input class="formFooter__input" type="email" name="email"
-                        placeholder="Correo electrónico" required/>
+                    <input class="formFooter__input" type="email" name="email" placeholder="Correo electrónico"
+                        required />
                 </div>
                 <div class="formFooter__contenido">
                     <textarea class="formFooter__detalle" name="detallecons"

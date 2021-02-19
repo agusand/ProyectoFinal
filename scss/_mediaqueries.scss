@@ -86,8 +86,11 @@
 /*Footer responsive*/
 
 @media all and (max-width: 768px) {
+    body{
+        grid-template-rows: 5rem minmax(60vh, max-content) 50rem;
+    }
+
     .piePagina {
-        height               : 50rem;
         grid-template-columns: 100vw;
         grid-template-rows   : 25rem 12.5rem 12.5rem;
         grid-template-areas  : "form""menu""contacto";
@@ -95,11 +98,6 @@
 
     .formFooter {
         height: 23.75rem;
-
-        &__fieldSet {
-            height: 23.75rem;
-        }
-
     }
 
 }

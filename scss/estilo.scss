@@ -5,6 +5,11 @@ $headerFooterBgColor :rgb(28, 34, 33);
     flex-flow: $dir $wrp;
 }
 
+body{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5rem minmax(60vh, max-content) 25rem;
+}
 
 @import "header";
 @import "main";
@@ -12,6 +17,7 @@ $headerFooterBgColor :rgb(28, 34, 33);
 @import "generalidades";
 
 @import "divulga";
+@import "error";
 
 @import "mediaqueries";
 @import "keyframes";
