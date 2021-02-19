@@ -25,14 +25,16 @@
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="encabezado">
         <!--Logo-->
         <div class="encabezado__logoCont">
-            <a href="index.html"><img class="logo" src="img/logo.png" alt="lqntc" /></a>
+            <h1>
+                <a href="index.html"><img class="logo" src="img/logo.png" alt="Lo que no te contaron" /></a>
+            </h1>
         </div>
         <!--Barra de navegación-->
         <nav class="navBarra navbar navbar-expand-lg">
@@ -44,6 +46,9 @@
                 <ul class="navBarra__lista navbar-nav">
                     <li class="navBarra__lisElem navBarra__lisElem--prim nav-item">
                         <a class="navBarra__link navBarra__link--izq nav-link" href="index.html">INCIO</a>
+                    </li>
+                    <li class="navBarra__lisElem navBarra__lisElem--prim nav-item">
+                        <a class="navBarra__link nav-link" href="nosotros.html">NOSOTROS</a>
                     </li>
                     <li class="navBarra__lisElem navBarra__lisElem--prim navBarra__lisElem--produc nav-item">
                         <a class="navBarra__link nav-link" href="productos.html">PRODUCTOS</a>
@@ -60,75 +65,20 @@
                         </ul>
                     </li>
                     <li class="navBarra__lisElem navBarra__lisElem--prim nav-item">
-                        <a class="navBarra__link nav-link" href="divulga.html">DIVULGÁ</a>
-                    </li>
-                    <li class="navBarra__lisElem navBarra__lisElem--prim nav-item">
-                        <a class="navBarra__link navBarra__link--der nav-link" href="aboutus.html">SOBRE NOSOTROS</a>
+                        <a class="navBarra__link navBarra__link--der nav-link" href="divulga.html">DIVULGÁ</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
     <main class="main">
-        <div class="contenedor container-fluid">
-            <!--Carrusel-->
-            <div id="demo" class="headerMain carousel slide row" data-ride="carousel">
-                <div class="headerMain__intCarrusel carousel-inner col-0 col-sd-0 col-md-0 col-lg-0 col-xl-12">
-                    <div class="carousel-item">
-                        <img class="headerMain__imgCarrusel" src="img/carrusel1.png" alt="Carrusel 1">
-                    </div>
-                    <div class="carousel-item active">
-                        <img class="headerMain__imgCarrusel" src="img/carrusel2.png" alt="Carrusel 2">
-                        <div class="headerMain__leyenda carousel-caption">
-                            <h1 class="headerMain__titulo">Lo que no te contaron!</h1>
-                            <p class="headerMain__parrafo">
-                                Desde <b>Lo que no te contaron</b> tenemos como objetivo principal, llevar el
-                                conocimiento, que estrictamente se suele mantener en el ámbito
-                                académico, al resto de los "mortales". El motivo es que,
-                                habiendo participado de cerca en dicho ámbito, todxs los que
-                                estamos formando parte de esta plataforma, notamos que hay una
-                                especie de vórtice en el cual, académicos, solo escriben para
-                                académicos.
-                            </p>
-                            <p class="headerMain__parrafo">
-                                A su vez, sabemos que hay divulgadores por doquier, pero
-                                entendemos que pocos de ellos realmente realizan una
-                                divulgación consciente y, nosotros, creemos fervientemente que
-                                es posible (y necesario, además de apasionante) transmitir ese
-                                conocimiento a la comunidad de forma entendible, y
-                                principalmente, sin perder la rigurosidad que lo caracteriza.
-                            </p>
-                            <p class="headerMain__parrafo">
-                                También vemos que hay mucha gente que tiene la misma pasión y
-                                el mismo deseo que nosotros, por eso esta plataforma es
-                                abierta; no obstante, en muchos casos, el conocimiento de
-                                estos profesionales no es valorado por la comunidad, por lo
-                                que también les brindamos la posibilidad de promocionar
-                                productos relacionados, ya que su trabajo, es trabajo.
-                            </p>
-                            <p class="headerMain__parrafo">
-                                Les damos una calurosa bienvenida a nuestro espacio. Que
-                                tengan una buena divulgada!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="headerMain__imgCarrusel" src="img/carrusel3.png" alt="Carrusel 3">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#demo" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
-            </div>
-            <div class="row">
-                <!--Sección principal-->
-                <article class="principal col-xl-7 col-lg-7 col-md-12 col-sd-12 col-12">
-                    <section>
-                        <h2 class="principal__titulo">Divulgá con nosotros!</h2>
-                        <p class="principal__parrafo">Desde <b>Lo que no te contaron</b> estamos interesados en
+        <div class="contenedor">
+            <!--Sección principal-->
+            <article class="principal">
+                <section class="principal__section">
+                    <h2 class="principal__titulo">DIVULGÁ CON NOSOTROS!</h2>
+                    <div class="principal__cuerpo">
+                        <p class="principal__parrafo">Desde <b class="principal__bold">Lo que no te contaron</b> estamos interesados en
                             brindarte la posibilidad de que
                             te sumes a nuestra causa.
                             Para ello te solicitamos que completes y envíes el siguiente formulario para que te
@@ -141,7 +91,7 @@
                                 </div>
                                 <div class="principal__inpCont"><label class="principal__formLabel" for="email2">Correo
                                         electrónico</label>
-                                    <input class="principal__inpText" type="email" name="email2">
+                                    <input class="principal__inpText" type="email" name="email2" required>
                                 </div>
                                 <div class="principal__inpCont"><label class="principal__formLabel"
                                         for="area">Área</label>
@@ -151,12 +101,13 @@
                                         experiencia</label>
                                     <textarea class="principal__inpText principal__inpText--CV" name="cv"></textarea>
                                 </div>
-                                <div>
+                                <div class="principal__botonCont">
                                     <input class="principal__boton btn" type="submit" name="enviar">
                                     <input class="principal__boton btn" type="reset" name="resetear">
                                 </div>
                             </fieldset>
                         </form>
+<<<<<<< HEAD
                     </section>
                 </article>
                 <!--Aside divulgadores-->
@@ -217,9 +168,11 @@
                                 </div>
                             </div>
                         </section>
+=======
+>>>>>>> minimalizacion
                     </div>
-                </aside>
-            </div>
+                </section>
+            </article>
         </div>
     </main>
     <footer class="piePagina">
@@ -239,7 +192,12 @@
                     </select>
                 </div>
                 <div class="formFooter__contenido">
+<<<<<<< HEAD
                     <input class="formFooter__input" type="email" name="email" placeholder="Correo electrónico" />
+=======
+                    <input class="formFooter__input" type="email" name="email"
+                        placeholder="Correo electrónico" required/>
+>>>>>>> minimalizacion
                 </div>
                 <div class="formFooter__contenido">
                     <textarea class="formFooter__detalle" name="detallecons"
@@ -271,7 +229,7 @@
                 <li class="menuFooter__lisElem"><a class="menuFooter__link" href="index.html">INCIO</a></li>
                 <li class="menuFooter__lisElem"><a class="menuFooter__link" href="productos.html">PRODUCTOS</a></li>
                 <li class="menuFooter__lisElem"><a class="menuFooter__link" href="divulga.html">DIVULGÁ</a></li>
-                <li class="menuFooter__lisElem"><a class="menuFooter__link" href="aboutus.html">SOBRE NOSOTROS</a></li>
+                <li class="menuFooter__lisElem"><a class="menuFooter__link" href="nosotros.html">SOBRE NOSOTROS</a></li>
             </ul>
         </div>
     </footer>

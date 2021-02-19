@@ -1,6 +1,6 @@
 .piePagina {
     position             : relative;
-    height               : 25rem;
+    grid-row: 3/4;
     display              : grid;
     grid-template-columns: 50vw 25vw 25vw;
     grid-template-rows   : 12.5rem 12.5rem;
@@ -14,13 +14,6 @@
     width    : 88%;
     height   : 21.875rem;
     grid-area: form;
-
-    &__fieldSet {
-        height  : 21.875rem;
-        width   : 100%;
-        padding : 0.625rem 1.25rem;
-        overflow: hidden;
-    }
 
     &__contenido {
         padding      : 0.3125rem;
@@ -51,7 +44,7 @@
         transition: border-bottom .3s, padding-bottom .3s;
         border-radius   :5px;
         height: 1.5625rem;
-        padding-bottom: 0.0938rem;
+        padding: 0.0938rem .2rem;
     
         &:hover {
             border-bottom: solid turquoise;
@@ -75,6 +68,7 @@
         border        : solid 0.0313rem rgba(240, 240, 240, .5);
         border-radius: 5px;
         transition: border-bottom .3s;
+        padding: 0.0938rem .2rem;
 
         &:hover {
             border-bottom: solid turquoise;
@@ -113,7 +107,7 @@
 
     &__lisElem &__link {
         &:hover{
-            color:#444;
+            color:#eee;
         }
     }
 }
@@ -133,7 +127,7 @@
     }
 
     &__imgRedes {
-        width : 3.75rem;
+        width : 3rem;
         margin: 1.25rem 0.9375rem;
 
         &:hover {
