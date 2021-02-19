@@ -143,14 +143,8 @@ body {
       grid-template-columns: 2rem 1fr 2rem;
       grid-template-rows: 5rem 3rem 1fr 5rem; }
   .principal__titulo {
-<<<<<<< HEAD
-    font-family: 'Dancing Script', cursive;
-    padding: .6rem 1.4rem; }
-  .principal__subtitulo {
-=======
     grid-row: 1/2;
     grid-column: 2/3;
->>>>>>> minimalizacion
     font-size: 1.25rem;
     font-weight: 400; }
     .principal__titulo--prodLinks {
@@ -492,15 +486,6 @@ body {
   :root {
     font-size: 14px; } }
 
-<<<<<<< HEAD
-@media all and (max-width: 599px) {
-  * {
-    font-size: 10px; }
-  .navBarra__lisElem--produc:hover {
-    margin-bottom: 4.9rem; }
-  .navBarra__subLista {
-    top: 4.9rem; } }
-=======
 @media all and (min-width: 768px) and (max-width: 992px) {
   :root {
     font-size: 12px; } }
@@ -508,7 +493,6 @@ body {
 @media all and (min-width: 576px) and (max-width: 768px) {
   :root {
     font-size: 10px; } }
->>>>>>> minimalizacion
 
 @media all and (max-width: 576px) {
   :root {
@@ -530,7 +514,11 @@ body {
   .inicio__quimica {
     grid-column: 7/8; }
   .inicio__rectangulo {
-    grid-column: 3/8; } }
+    grid-column: 3/8; }
+  .navBarra__lisElem--produc:hover {
+    margin-bottom: 4.9rem; }
+  .navBarra__subLista {
+    top: 4.9rem; } }
 
 @keyframes menu {
   from {
