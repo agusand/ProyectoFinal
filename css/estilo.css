@@ -145,7 +145,7 @@ body {
   .principal__titulo {
     grid-row: 1/2;
     grid-column: 2/3;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     font-weight: 400; }
     .principal__titulo--prodLinks {
       font-size: 1.5625rem;
@@ -212,7 +212,7 @@ body {
   .divulgadores__titulo {
     font-family: 'Roboto', sans-serif;
     padding: 1.6rem 1.8rem;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     font-weight: 400; }
   .divulgadores__body {
     width: 100%;
@@ -514,11 +514,7 @@ body {
   .inicio__quimica {
     grid-column: 7/8; }
   .inicio__rectangulo {
-    grid-column: 3/8; }
-  .navBarra__lisElem--produc:hover {
-    margin-bottom: 4.9rem; }
-  .navBarra__subLista {
-    top: 4.9rem; } }
+    grid-column: 3/8; } }
 
 @keyframes menu {
   from {
