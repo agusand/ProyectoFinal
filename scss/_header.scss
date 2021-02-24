@@ -7,23 +7,21 @@
     width          : 100%;
     border         : 0.125rem solid #222;
     box-sizing     : border-box;
-    z-index        : 200;
+    z-index        : 15;
     @include flexbox (row,nowrap);
     justify-content: space-between;
 
     &__logoCont {
-
         a {
+            height: 5rem;
             display: inline-block;
         }
     }
 }
 
 .logo {
-    display   : block;
-    object-fit: cover;
-    height: 4rem;
-    margin    : -2.8rem 3rem;
+    height: 90%;
+    margin    : 0.2rem 3rem;
 }
 
 .navBarra {
