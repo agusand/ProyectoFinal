@@ -136,6 +136,11 @@
     /* Formulario divulgá, productos y tabla responsive */ 
 
     .principal{
+        &__cuerpo{
+            &--tablProd{
+                grid-column: 1/3;
+            }
+        }
         &__fieldset{
             align-items: center;
             max-width: 100vw;
